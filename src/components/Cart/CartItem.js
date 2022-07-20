@@ -1,10 +1,10 @@
-import Classes from './CartItem.module.css';
+import Classes from "./CartItem.module.css";
 
 const CartItem = (props) => {
   const price = `$${props.price.toFixed(2)}`;
 
   return (
-    <li className={Classes['cart-item']}>
+    <li className={Classes["cart-item"]}>
       <div>
         <h2>{props.name}</h2>
         <div className={Classes.summary}>
